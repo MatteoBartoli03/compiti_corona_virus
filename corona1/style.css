@@ -1,0 +1,84 @@
+body {
+    padding: 1em 5em 0em 5em;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+ol {
+    font-size: 1.1em;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  overflow-x: auto;
+  width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even){background-color: rgb(204, 217, 255)}
+tr:nth-child(odd){background-color: rgb(255, 255, 255)}
+
+th {
+  background-color: rgb(36, 36, 143);
+  color: white;
+}
+
+img {
+    height: 30em;
+    width: auto;
+    border-radius: 0.6em;
+    display: block;
+    margin: 12px 0px 20px 20px;
+}
+
+.black {
+    color: rgb(0,0,0);
+}
+
+.azzurro {
+    color: hsl(240, 100%, 35%);
+}
+
+.blu {
+    color: rgb(0, 0, 153);
+}
+
+.title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4em;
+}
+
+.subtitle {
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.sezione {
+    font-family:Verdana;
+    border-radius: 0.6em;
+    margin-bottom: 2em;
+    padding-left:2.3em;
+    padding-right:2.3em;
+    padding-top:1em;
+    padding-bottom:2em;
+    box-sizing: border-box;
+}
+
+.sfondo_blu {
+    background-color: rgb(230, 236, 255);
+}
+
+#desc {
+    text-align: center;
+    font-style: italic;
+    font-size:1.1em;
+}
